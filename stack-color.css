@@ -1,0 +1,75 @@
+:root {
+    /* ------------------------------------------------------------------------------
+    fixed order of colors for tab stack borders. see combinator rules at the bottom.
+    ------------------------------------------------------------------------------ */
+    --tabStackBorderColor1: #827be2;
+    --tabStackBorderColor2: #f87878;
+    --tabStackBorderColor3: #71ba71;
+    --tabStackBorderColor4: #eba363;
+    --tabStackBorderColor5: #f58aff;
+    --tabStackBorderColor6: #8accff;
+    --tabStackBorderColor7: #d5d554;
+    --tabStackBorderColor8: #a64c4c;
+    --tabStackBorderColor9: #52b3b1;
+ 
+    /* ------------------------------------------------------------------------------
+    change tab styles to support chrome-style tab stack borders
+    ------------------------------------------------------------------------------ */
+    --tabStackBorderStyle:  solid;
+    --tabStackBorderRadius: 8px;
+    --tabStackBorderWidth: 2px;
+    --tabStackBorderWidthNeg: -2px;      /*  borders moved the tab text and close button  */
+    --tabStackBorderPaddingAdjust: 4px;  /*  so these will move them back to position     */
+}
+
+.stack-frame {
+    stroke-width: 8px !important;
+}
+
+div.tab-position {
+    --Height: 36px !important;
+    --PositionY2: calc((var(--PositionY) / 30) * 36);
+    transform: translateX(var(--PositionX)) translateY(var(--PositionY2)) !important;
+}
+
+div.button-toolbar.newtab {
+    --PositionY2: calc((var(--PositionY) / 30) * 36) !important;
+    top: var(--PositionY2) !important;
+}
+
+div.tab-header {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+
+/* color the tab stack arrow in each stack */
+.tab-strip > span:has(> .is-substack):nth-of-type(1) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor1); }
+.tab-strip > span:has(> .is-substack):nth-of-type(2) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor2); }
+.tab-strip > span:has(> .is-substack):nth-of-type(3) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor3); }
+.tab-strip > span:has(> .is-substack):nth-of-type(4) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor4); }
+.tab-strip > span:has(> .is-substack):nth-of-type(5) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor5); }
+.tab-strip > span:has(> .is-substack):nth-of-type(6) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor6); }
+.tab-strip > span:has(> .is-substack):nth-of-type(7) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor7); }
+.tab-strip > span:has(> .is-substack):nth-of-type(8) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor8); }
+.tab-strip > span:has(> .is-substack):nth-of-type(9) > .is-substack .stack-frame { stroke: var(--tabStackBorderColor9); }
+
+.tab-strip > span:has(.is-substack):nth-of-type(1) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor1) !important; }
+.tab-strip > span:has(.is-substack):nth-of-type(2) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor2) !important; }
+.tab-strip > span:has(.is-substack):nth-of-type(3) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor3) !important; }
+.tab-strip > span:has(.is-substack):nth-of-type(4) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor4) !important; }
+.tab-strip > span:has(.is-substack):nth-of-type(5) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor5) !important; }
+.tab-strip > span:has(.is-substack):nth-of-type(6) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor6) !important; }
+.tab-strip > span:has(.is-substack):nth-of-type(7) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor7) !important; }
+.tab-strip > span:has(.is-substack):nth-of-type(8) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor8) !important; }
+.tab-strip > span:has(.is-substack):nth-of-type(9) > div.is-substack .tab.active { background-color: var(--tabStackBorderColor9) !important; }
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(1) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor1) !important;}
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(2) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor2) !important;}
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(3) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor3) !important;}
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(4) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor4) !important;}
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(5) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor5) !important;}
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(6) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor6) !important;}
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(7) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor7) !important;}
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(8) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor8) !important;}
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(9) > div.is-substack .tab.active) .insubstrip.active {background-color: var(--tabStackBorderColor9) !important;}
