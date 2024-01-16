@@ -1,0 +1,62 @@
+$colors: (
+ #3e918f,
+ #6f69be,
+ #d15c5c,
+ #5a9a5a,
+ #eba363,
+ #b239bd,
+ #4084b8,
+ #a8a81a,
+ #da381f,
+);
+
+:root {
+    --tabStackBorderStyle:  solid;
+    --tabStackBorderRadius: 8px;
+    --tabStackBorderWidth: 2px;
+    --tabStackBorderWidthNeg: -2px;      /*  borders moved the tab text and close button  */
+    --tabStackBorderPaddingAdjust: 4px;  /*  so these will move them back to position     */
+}
+
+
+@each $color in $colors {
+	$i: index($colors, $color);
+    :root {
+        --tabStackBorderColor#{$i}: #{$color}
+    }
+    .tab-strip > span:has(.is-substack):nth-of-type(#{$i}) > div.is-substack {
+        .stack-frame { 
+            stroke: var(--tabStackBorderColor#{$i}); 
+        }
+        .tab.active { 
+            background-color: var(--tabStackBorderColor#{$i}) !important; 
+        }
+    }
+    #tabs-tabbar-container:has(#tabs-container span:nth-of-type(#{$i}) > div.is-substack .tab.active) {
+        .insubstrip.active {
+            background-color: var(--tabStackBorderColor#{$i}) !important;
+        }
+    }
+}
+
+$tab_height: 36;
+
+.stack-frame {
+    stroke-width: 8px !important;
+}
+
+div.tab-position {
+    --Height: #{$tab_height}px !important;
+    --PositionY2: calc((var(--PositionY) / 30) * #{$tab_height});
+    transform: translateX(var(--PositionX)) translateY(var(--PositionY2)) !important;
+}
+
+div.button-toolbar.newtab {
+    --PositionY2: calc((var(--PositionY) / 30) * #{$tab_height}) !important;
+    top: var(--PositionY2) !important;
+}
+
+div.tab-header {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
