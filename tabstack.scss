@@ -1,13 +1,40 @@
+// $colors: (
+//  #3e918f,
+//  #6f69be,
+//  #d15c5c,
+//  #eba363,
+//  #4084b8,
+//  #da381f,
+//  #5a9a5a,
+//  #b239bd,
+//  #a8a81a,
+// );
+
 $colors: (
- #3e918f,
- #6f69be,
- #d15c5c,
- #5a9a5a,
- #eba363,
- #b239bd,
- #4084b8,
- #a8a81a,
- #da381f,
+    #BD576F,
+    #C95F6B,
+    #CF5E5A,
+    #D77957,
+    #D6763A,
+    #D89048,
+    #D29F34,
+    #CCBA4C,
+    #C0B647,
+    #B3B140,
+    #79B055,
+    #66AC78,
+    #5BA37E,
+    #4E9B87,
+    #4E9995,
+    #4F8B96,
+    #4E7592,
+    #516691,
+    #535A90,
+    #5C5791,
+    #77568F,
+    #8B5587,
+    #9E5485,
+    #B05076
 );
 
 :root {
@@ -18,9 +45,8 @@ $colors: (
     --tabStackBorderPaddingAdjust: 4px;  /*  so these will move them back to position     */
 }
 
-
 @each $color in $colors {
-	$i: index($colors, $color);
+	$i: (index($colors, $color) * 5) % 24;
     :root {
         --tabStackBorderColor#{$i}: #{$color}
     }

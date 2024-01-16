@@ -7,67 +7,7 @@
 }
 
 :root {
-  --tabStackBorderColor1: #3e918f ;
-}
-
-.tab-strip > span:has(.is-substack):nth-of-type(1) > div.is-substack .stack-frame {
-  stroke: var(--tabStackBorderColor1);
-}
-.tab-strip > span:has(.is-substack):nth-of-type(1) > div.is-substack .tab.active {
-  background-color: var(--tabStackBorderColor1) !important;
-}
-
-#tabs-tabbar-container:has(#tabs-container span:nth-of-type(1) > div.is-substack .tab.active) .insubstrip.active {
-  background-color: var(--tabStackBorderColor1) !important;
-}
-
-:root {
-  --tabStackBorderColor2: #6f69be ;
-}
-
-.tab-strip > span:has(.is-substack):nth-of-type(2) > div.is-substack .stack-frame {
-  stroke: var(--tabStackBorderColor2);
-}
-.tab-strip > span:has(.is-substack):nth-of-type(2) > div.is-substack .tab.active {
-  background-color: var(--tabStackBorderColor2) !important;
-}
-
-#tabs-tabbar-container:has(#tabs-container span:nth-of-type(2) > div.is-substack .tab.active) .insubstrip.active {
-  background-color: var(--tabStackBorderColor2) !important;
-}
-
-:root {
-  --tabStackBorderColor3: #d15c5c ;
-}
-
-.tab-strip > span:has(.is-substack):nth-of-type(3) > div.is-substack .stack-frame {
-  stroke: var(--tabStackBorderColor3);
-}
-.tab-strip > span:has(.is-substack):nth-of-type(3) > div.is-substack .tab.active {
-  background-color: var(--tabStackBorderColor3) !important;
-}
-
-#tabs-tabbar-container:has(#tabs-container span:nth-of-type(3) > div.is-substack .tab.active) .insubstrip.active {
-  background-color: var(--tabStackBorderColor3) !important;
-}
-
-:root {
-  --tabStackBorderColor4: #5a9a5a ;
-}
-
-.tab-strip > span:has(.is-substack):nth-of-type(4) > div.is-substack .stack-frame {
-  stroke: var(--tabStackBorderColor4);
-}
-.tab-strip > span:has(.is-substack):nth-of-type(4) > div.is-substack .tab.active {
-  background-color: var(--tabStackBorderColor4) !important;
-}
-
-#tabs-tabbar-container:has(#tabs-container span:nth-of-type(4) > div.is-substack .tab.active) .insubstrip.active {
-  background-color: var(--tabStackBorderColor4) !important;
-}
-
-:root {
-  --tabStackBorderColor5: #eba363 ;
+  --tabStackBorderColor5: #BD576F ;
 }
 
 .tab-strip > span:has(.is-substack):nth-of-type(5) > div.is-substack .stack-frame {
@@ -82,7 +22,67 @@
 }
 
 :root {
-  --tabStackBorderColor6: #b239bd ;
+  --tabStackBorderColor10: #C95F6B ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(10) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor10);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(10) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor10) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(10) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor10) !important;
+}
+
+:root {
+  --tabStackBorderColor15: #CF5E5A ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(15) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor15);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(15) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor15) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(15) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor15) !important;
+}
+
+:root {
+  --tabStackBorderColor20: #D77957 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(20) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor20);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(20) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor20) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(20) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor20) !important;
+}
+
+:root {
+  --tabStackBorderColor1: #D6763A ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(1) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor1);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(1) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor1) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(1) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor1) !important;
+}
+
+:root {
+  --tabStackBorderColor6: #D89048 ;
 }
 
 .tab-strip > span:has(.is-substack):nth-of-type(6) > div.is-substack .stack-frame {
@@ -97,7 +97,67 @@
 }
 
 :root {
-  --tabStackBorderColor7: #4084b8 ;
+  --tabStackBorderColor11: #D29F34 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(11) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor11);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(11) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor11) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(11) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor11) !important;
+}
+
+:root {
+  --tabStackBorderColor16: #CCBA4C ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(16) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor16);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(16) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor16) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(16) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor16) !important;
+}
+
+:root {
+  --tabStackBorderColor21: #C0B647 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(21) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor21);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(21) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor21) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(21) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor21) !important;
+}
+
+:root {
+  --tabStackBorderColor2: #B3B140 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(2) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor2);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(2) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor2) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(2) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor2) !important;
+}
+
+:root {
+  --tabStackBorderColor7: #79B055 ;
 }
 
 .tab-strip > span:has(.is-substack):nth-of-type(7) > div.is-substack .stack-frame {
@@ -112,7 +172,67 @@
 }
 
 :root {
-  --tabStackBorderColor8: #a8a81a ;
+  --tabStackBorderColor12: #66AC78 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(12) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor12);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(12) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor12) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(12) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor12) !important;
+}
+
+:root {
+  --tabStackBorderColor17: #5BA37E ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(17) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor17);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(17) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor17) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(17) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor17) !important;
+}
+
+:root {
+  --tabStackBorderColor22: #4E9B87 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(22) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor22);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(22) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor22) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(22) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor22) !important;
+}
+
+:root {
+  --tabStackBorderColor3: #4E9995 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(3) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor3);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(3) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor3) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(3) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor3) !important;
+}
+
+:root {
+  --tabStackBorderColor8: #4F8B96 ;
 }
 
 .tab-strip > span:has(.is-substack):nth-of-type(8) > div.is-substack .stack-frame {
@@ -127,7 +247,67 @@
 }
 
 :root {
-  --tabStackBorderColor9: #da381f ;
+  --tabStackBorderColor13: #4E7592 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(13) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor13);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(13) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor13) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(13) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor13) !important;
+}
+
+:root {
+  --tabStackBorderColor18: #516691 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(18) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor18);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(18) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor18) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(18) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor18) !important;
+}
+
+:root {
+  --tabStackBorderColor23: #535A90 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(23) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor23);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(23) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor23) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(23) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor23) !important;
+}
+
+:root {
+  --tabStackBorderColor4: #5C5791 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(4) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor4);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(4) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor4) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(4) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor4) !important;
+}
+
+:root {
+  --tabStackBorderColor9: #77568F ;
 }
 
 .tab-strip > span:has(.is-substack):nth-of-type(9) > div.is-substack .stack-frame {
@@ -139,6 +319,51 @@
 
 #tabs-tabbar-container:has(#tabs-container span:nth-of-type(9) > div.is-substack .tab.active) .insubstrip.active {
   background-color: var(--tabStackBorderColor9) !important;
+}
+
+:root {
+  --tabStackBorderColor14: #8B5587 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(14) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor14);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(14) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor14) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(14) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor14) !important;
+}
+
+:root {
+  --tabStackBorderColor19: #9E5485 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(19) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor19);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(19) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor19) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(19) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor19) !important;
+}
+
+:root {
+  --tabStackBorderColor0: #B05076 ;
+}
+
+.tab-strip > span:has(.is-substack):nth-of-type(0) > div.is-substack .stack-frame {
+  stroke: var(--tabStackBorderColor0);
+}
+.tab-strip > span:has(.is-substack):nth-of-type(0) > div.is-substack .tab.active {
+  background-color: var(--tabStackBorderColor0) !important;
+}
+
+#tabs-tabbar-container:has(#tabs-container span:nth-of-type(0) > div.is-substack .tab.active) .insubstrip.active {
+  background-color: var(--tabStackBorderColor0) !important;
 }
 
 .stack-frame {
